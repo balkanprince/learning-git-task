@@ -13,3 +13,6 @@ for shop, items in shopping_list.items():
     print(f"W sumie kupuję {total_items} produktów.")
     total_items = sum(len(items) for items in shopping_list.values())
 print(f"W sumie kupuję {total_items} produktów.")
+
+def demo_function():
+    print("I am inside of a function!")
